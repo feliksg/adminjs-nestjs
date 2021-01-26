@@ -18,7 +18,9 @@
     }
   },
   "peerDependencies": {
-    "admin-bro": ">=3.0.0"
+    "admin-bro": ">=3.0.0",
+    "@nestjs/common": ">=7.4.2",
+    "@nestjs/core": ">=7.4.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -39,13 +41,13 @@
     "husky": "^4.2.5",
     "semantic-release": "^17.0.7",
     "semantic-release-slack-bot": "^1.6.2",
-    "typescript": "^3.9.7"
-  },
-  "dependencies": {
+    "typescript": "^3.9.7",
     "@nestjs/common": "^7.4.2",
     "@nestjs/core": "^7.4.2",
-    "@types/express-session": "^1.17.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3"
+  },
+  "dependencies": {
+    "@types/express-session": "^1.17.0"
   }
 }
